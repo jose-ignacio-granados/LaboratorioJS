@@ -325,12 +325,19 @@ console.log(segundoProducto); // undefined
 
 ### Ejercicio 20 – Desestructuración con rest en parámetros y retorno de objeto
 ```javascript
-// Concepto: Recoge el resto de propiedades en un objeto y devuelve un nuevo objeto resumen.
-function partirObjeto({ id, nombre, ...________ }) {
-    return { identificador: id, extra: resto };
-}
-const entrada = { id: 123, nombre: "Teclado", color: "negro", precio: 49.99 };
-console.log(partirObjeto(entrada));
-// { identificador: 123, extra: { nombre: "Teclado", color: "negro", precio: 49.99 } }
+// Concepto: ?.[] y ?.() evitan errores si el elemento o método no existe.
+const tienda = {
+    secciones: [
+        { nombre: "Electrónica", productos: [{ nombre: "TV" }] },
+        null
+    ]
+};
+// Accede de forma segura al nombre del primer producto de la primera sección
+const primerProducto = tienda?.secciones?.[0]?.productos?.[0]?.________;
+console.log(primerProducto); // "TV"
+
+// Intenta acceder a la sección nula y a su primer producto
+const segundoProducto = tienda?.secciones?.[1]?.productos?.[0]?.nombre;
+console.log(segundoProducto); // undefined 
 ```
 
