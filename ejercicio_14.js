@@ -1,5 +1,5 @@
 
-
+//14.
 // Concepto: Las clases pueden tener miembros privados con #; extends y super construyen la jerarquía.
 // Los getters permiten acceder de forma controlada a los campos privados.
 class Dispositivo {

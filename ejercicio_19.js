@@ -1,5 +1,6 @@
-// Concepto: ?.[] y ?.() evitan errores si el elemento o método no existe.
-const tienda = {
+// 19.
+//concepto: ?.[] y ?.() evitan errores si el elemento o método no existe.
+const tienda = { 
     secciones: [
         { nombre: "Electrónica", productos: [{ nombre: "TV" }] },
         null

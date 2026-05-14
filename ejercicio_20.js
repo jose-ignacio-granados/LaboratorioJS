@@ -1,4 +1,4 @@
-// ejercicio 20
+// ejercicio 20.
 //  Concepto: Recoge el resto de propiedades en un objeto y devuelve un nuevo objeto resumen.
 function partirObjeto({ id, ...resto }) {
     return { identificador: id, extra: resto };

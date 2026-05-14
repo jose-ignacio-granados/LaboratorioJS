@@ -1,4 +1,4 @@
-// ejercicio 11
+// ejercicio 11.
 const formatear = ({ nombre, edad, pais = "No especificado" }) =>
     ({ nombre, edad, etiqueta: `${nombre} (${pais})` });
 

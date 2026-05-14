@@ -1,5 +1,5 @@
 
-
+//15.
 // Concepto: async/await permite código asíncrono secuencial; la función devuelve una promesa.
 const obtenerUsuario = async (id) => {
     try {

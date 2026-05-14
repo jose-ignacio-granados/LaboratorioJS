@@ -1,3 +1,4 @@
+// 18.
 // Concepto: Un Set facilita operaciones de conjunto. Usa .has() para comprobar pertenencia.
 const conocidos = new Set(["Ana", "Luis", "Mía"]);
 const asistentes = ["Luis", "Pedro", "Mía"];

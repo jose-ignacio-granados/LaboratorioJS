@@ -1,4 +1,4 @@
-// 12
+// 12.
 const empleados = [
     { id: 1, nombre: "Ana", area: "TI", activo: true },
     { id: 2, nombre: "Luis", area: "Ventas", activo: false },

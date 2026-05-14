@@ -1,3 +1,4 @@
+//17.
 // Concepto: Dentro de `${}` puedes poner operadores ternarios y otras expresiones.
 const stock = 5;
 const estado = stock > 10 ? "Alto" : (stock > 0 ? "Bajo" : "Agotado");
