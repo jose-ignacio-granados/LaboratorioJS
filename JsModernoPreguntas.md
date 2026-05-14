@@ -11,9 +11,9 @@
 ```javascript
 // ==========================================
 // Evaluación en Pareja
-// Estudiante 1: ________
-// Estudiante 2: ________
-// Fecha: ________
+// Estudiante 1: José Ignacio Granados
+// Estudiante 2: Javier Lugo
+// Fecha: 14/05/2026
 // 
 // ==========================================
 ```
